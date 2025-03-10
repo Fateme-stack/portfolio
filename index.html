@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title> fateme | Frontend Developer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color:#030433;
+      color: #ffffff;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    a {
+      color: #0dcaf0;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #66d9ef;
+    }
+    .hero {
+      background-color: #030433;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%230B0359' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%2321038E'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+      padding: 80px 0;
+      text-align: center;
+    }
+    .section {
+      width: 100%;
+      background-color: #030433;
+      padding: 60px 0;
+    }
+    .card {
+      background-color: #1e1e1e;
+      color: white;
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0, 255, 255, 0.1);
+    }
+    .footer {
+      padding: 20px;
+      background-color: #161616;
+      text-align: center;
+    }
+    img{
+      padding: 20px;
+      height: 300px;
+      width: 300px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+    .display-4{
+      padding: 5px;
+      text-shadow: 5px 5px 0 10px black;
+    }
+    .bg-dark{
+      background-color: #F6F6F6;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' %3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='0' y2='1' gradientTransform='rotate(0,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%23000000'/%3E%3Cstop offset='1' stop-color='%23061B53'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpattern id='b' width='16' height='16' patternUnits='userSpaceOnUse'%3E%3Ccircle fill='%23F6F6F6' cx='8' cy='8' r='8'/%3E%3C/pattern%3E%3Crect width='100%25' height='100%25' fill='url(%23a)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23b)' fill-opacity='0.04'/%3E%3C/svg%3E");
+      background-attachment: fixed;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1 class="display-4">Hello, I'm Fateme</h1>
+    <img src="/AirBrush_20250310202652.jpg" alt="my-photo">
+    <p class="lead">Frontend Developer | HTML • CSS • Bootstrap • Learning JS</p>
+  </section>
+
+  <!-- About Me -->
+  <section class="section container">
+    <h2>About Me</h2>
+    <p>
+      I'm a junior frontend developer focused on building clean and modern websites. I enjoy writing clean code and turning designs into real, responsive web pages. I’m currently learning JavaScript to take my skills to the next level.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section class="section bg-dark text-white">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>Bootstrap 5</li>
+        <li>JavaScript (in progress)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section container">
+    <h2>Projects</h2>
+    <div class="row g-4">
+      <!-- Project Card -->
+      <div class="col-md-6">
+        <div class="card p-3 h-100">
+          <div class="card-body">
+            <h5 class="card-title">Landing Page</h5>
+            <p class="card-text">A responsive landing page built using HTML, CSS, and Bootstrap. Designed for mobile-first experience.</p>
+            <a href="https://yourprojectlink.com" target="_blank">View Project</a>
+          </div>
+        </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section bg-dark text-white">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Let’s connect! Feel free to reach out via:</p>
+      <ul>
+        <li>Email: <a href="mailto:fatemees8300@email.com">your@email.com</a></li>
+        <li>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com</a></li>
+        <li>GitHub: <a href="https://github.com/fateme-stack" target="_blank">github.com</a></li>
+      </ul>
+      <p>I would be happy to see your comments</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer text-muted">
+    <p>&copy; 2025 fatemeh eskandari.</p>
+  </footer>
+
+</body>
+</html>
